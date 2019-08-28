@@ -32,14 +32,18 @@ class Picture(models.Model):
     pub_date = models.DateTimeField(auto_now_add=True)
     tags = models.ManyToManyField(tags)
     description = models.TextField(blank=True)
+    image = ProcessedImageField(upload_to='avatars',
+                                           processors=[ResizeToFill(100, 50)],
+                                           format='JPEG',
+                                           options={'quality': 60})
     category = models.ForeignKey(
         Category, related_name="images", null=False, on_delete=models.CASCADE)
 
     @classmethod
     def search_by_title(cls, search_term):
-        images = cls.objects.filter(description__contains=search_term)
+        image = cls.objects.filter(description__contains=search_term)
 
-        return images
+        return image
 
     @classmethod
     def get_image_by_id(cls, id):
