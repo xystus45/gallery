@@ -1,5 +1,4 @@
 #** Gallery app**
-> Checkout my cool gallery application
 
 #### This is my personal gallery website where you can see photos that i have uploaded.
 
@@ -8,7 +7,7 @@
 * Click on a single photo to expand it and view the details of the photo.
 * View different categories of photos.
 * Copy a link to the photo to share with my friends.
-* Search a photo .
+
 
 ## Usage example
 
