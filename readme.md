@@ -16,7 +16,7 @@
 
 ## Development setup
 
-To access the Code behind this site, you will need to:
+- To access the Code behind this site, you will need to:
 
 1. Clone this repo:
   ```bash
