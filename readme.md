@@ -1,4 +1,4 @@
-# Gallery app
+#** Gallery app**
 > Checkout my cool gallery application
 
 #### This is my personal gallery website where you can see photos that i have uploaded.
