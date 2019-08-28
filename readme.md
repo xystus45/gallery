@@ -8,10 +8,10 @@
 * Copy a link to the photo to share with my friends.
 ***
 
-## Usage example
+***## ~~Usage example~~
 
 1. Open the website and browse the images.
-2. If you see an image that interests you you can click on it to view it.
+2. If you see an image that interests you you can click on it to view it.***
 
 
 ## Development setup
