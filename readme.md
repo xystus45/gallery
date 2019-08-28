@@ -2,11 +2,11 @@
 
 #### This is my personal gallery website where you can see photos that i have uploaded.
 
-## As users you can :
+***## As users you can :
 * View different photos that interest me.
 * View different categories of photos.
 * Copy a link to the photo to share with my friends.
-
+***
 
 ## Usage example
 
